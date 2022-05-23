@@ -4,6 +4,7 @@ const gallery = new Swiper('.gallery__slider', {
     wrapperClass: 'gallery__items',
     slideClass: 'gallery__item',
     slidesPerView: 1,
+    spaceBetween: 20,
 
     breakpoints: {
         640: {
