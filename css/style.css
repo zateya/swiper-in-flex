@@ -157,13 +157,13 @@ img {
 
 @media (max-width: 399px) {
     .gallery__item {
-        width: calc(100% - 20px);
+        width: 100%;
     }
 }
 
 @media (min-width: 400px) {
     .gallery__item {
-        width: calc(50% - 20px);
+        width: calc(50% - 10px);
     }
 }
 
@@ -174,16 +174,9 @@ img {
 .gallery__img-wrap {
     position: relative;
     border-radius: 16px;
-    overflow: hidden;
-    z-index: 0;
-}
-
-.gallery__img-wrap::before {
-    content: "";
-    display: block;
     padding-top: 60%;
     background-color: #bbbbbb;
-    z-index: -1;
+    overflow: hidden;
 }
 
 .gallery__img {
@@ -193,7 +186,6 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 1;
 }
 
 .slider-btn {
