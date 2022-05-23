@@ -140,7 +140,6 @@ img {
     position: relative;
     margin-top: 30px;
     margin-bottom: 30px;
-    overflow: hidden;
 }
 
 @media (max-width: 767px) {
@@ -155,12 +154,16 @@ img {
 
 @media (min-width: 768px) {
     .gallery {
-        width: calc(100% + 40px);
-        margin-left: -20px;
-        margin-right: -20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        width: calc(100% + 48px);
+        margin-left: -24px;
+        margin-right: -24px;
+        padding-left: 14px;
+        padding-right: 14px;
     }
+}
+
+.gallery__slider {
+    overflow: hidden;
 }
 
 .gallery__items {

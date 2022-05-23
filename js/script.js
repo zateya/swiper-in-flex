@@ -1,4 +1,4 @@
-const gallery = new Swiper('.gallery', {
+const gallery = new Swiper('.gallery__slider', {
     // Optional parameters
     loop: true,
     wrapperClass: 'gallery__items',
