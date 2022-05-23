@@ -7,7 +7,7 @@ const gallery = new Swiper('.gallery__slider', {
     spaceBetween: 20,
 
     breakpoints: {
-        640: {
+        400: {
           slidesPerView: 2,
         },
     },
